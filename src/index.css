@@ -1,23 +1,28 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 @font-face {
-    font-family: 'cera-med';
-    src: url(Assets/Fonts/CeraProMedium.otf);
+    font-family: 'cera-medium';
+    src: url("Assets/Fonts/CeraProMedium.otf");
     font-display: swap;
 }
 
 @font-face {
     font-family: 'cera-light';
-    src: url(Assets/Fonts/CeraProLight.otf);
+    src: url("Assets/Fonts/CeraProLight.otf");
     font-display: swap;
 }
 
 @font-face {
   font-family: 'cera-bold';
-  src: url(Assets/Fonts/CeraProBold.otf);
+  src: url("Assets/Fonts/CeraProBold.otf");
   font-display: swap;
 }
 
 .cera-med{
-  font-family: 'cera-med';
+  font-family: 'cera-medium';
 }
 .cera-light{
   font-family: 'cera-light';
