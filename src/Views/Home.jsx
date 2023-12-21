@@ -1,8 +1,11 @@
 import React from 'react'
+import First from '../Components/HomeCompo/First'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <First/>
+    </div>
   )
 }
 
