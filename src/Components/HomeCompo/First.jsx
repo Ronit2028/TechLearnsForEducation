@@ -4,8 +4,8 @@ const First = () => {
     return (
         <>
             <section class="text-gray-600 body-font">
-                <div class="container px-5 pt-24  mx-auto">
-                    <div class="flex flex-col text-center w-full mb-12 px-64">
+                <div class="container px-5 pt-24  w-1/2 mx-auto">
+                    <div class="flex flex-col text-center w-full mb-12 ">
                         <h1 class="sm:text-6xl text-2xl leading-loose font-medium title-font mb-4 text-gray-900 cera-med ">Inspiring
                             teachers and
 
@@ -21,7 +21,7 @@ const First = () => {
                                     <div class="p-2 lg:w-1/3">
                                         <div class="h-full bg-gray-200 bg-opacity-75 px-2 py-8 rounded-lg overflow-hidden text-center relative">
                                             <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Teachers</h1>
-                                            <button class="text-white bg-blue-500 border-0 py-2 px-16 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
+                                            <button class="text-white bg-blue-500 border-0 py-2 px-16 focus:outline-none transition duration-300 transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none  hover:bg-blue-600 rounded text-lg">Button</button>
 
 
                                         </div>
@@ -30,7 +30,7 @@ const First = () => {
                                         <div class="h-full bg-gray-200 bg-opacity-75 px-2 py-8  rounded-lg overflow-hidden text-center relative">
                                             <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Schools
                                             </h1>
-                                            <button class="text-white bg-blue-500 border-0 py-2 px-16 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
+                                            <button class="text-white bg-blue-500 border-0 py-2 px-16 focus:outline-none hover:bg-blue-600 rounded text-lg transition duration-300 transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Button</button>
 
 
                                         </div>
@@ -38,7 +38,7 @@ const First = () => {
                                     <div class="p-2 lg:w-1/3">
                                         <div class="h-full bg-gray-200 bg-opacity-75 px-2 py-8  rounded-lg overflow-hidden text-center relative">
                                             <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Students</h1>
-                                            <button class="text-white bg-blue-500 border-0 py-2 px-16 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
+                                            <button class="text-white bg-blue-500 border-0 py-2 px-16 focus:outline-none hover:bg-blue-600 rounded text-lg transition duration-300 transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">Button</button>
 
 
                                         </div>

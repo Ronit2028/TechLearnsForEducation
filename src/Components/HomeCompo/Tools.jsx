@@ -6,17 +6,16 @@ import iconc3 from '../../Assets/img/icon-3.png'
 
 const Tools = () => {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font md:px-10 py-5  flex justify-center w-full ">
+      <div className=" w-10/12">
   <div className="container px-5 py-24 mx-auto">
-    <div className="text-center mb-20">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Visual communication and collaboration is an important tool for learning
-</h1>
-      <div className="flex mt-6 justify-center">
-      </div>
+    <div className="text-center w-full flex justify-center mb-20">
+      <h1 className="sm:text-3xl w-1/2 text-2xl font-medium title-font  text-gray-900 mb-4">Visual communication and collaboration is an important tool for learning</h1>
+      
     </div>
     <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+        <div className="w-[130px]  inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-16 flex-shrink-0">
           <img className='rounded-full ' src={iconc1} alt=''/>
         </div>
         <div className="flex-grow">
@@ -26,7 +25,7 @@ const Tools = () => {
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+        <div className="w-[130px]  inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-16 flex-shrink-0">
         <img className='rounded-full ' src={iconc2} alt=''/>
 
         </div>
@@ -39,7 +38,7 @@ const Tools = () => {
         </div>
       </div>
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+        <div className="w-[130px]  inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-16 flex-shrink-0">
         <img className='rounded-full ' src={iconc3} alt=''/>
 
         </div>
@@ -52,7 +51,7 @@ const Tools = () => {
         </div>
       </div>
     </div>
-    <button className="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+    </div>
   </div>
 </section>
   )
