@@ -33,3 +33,9 @@
 .section-title{
   font-size: 200%;
 }
+.my-hero-header{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

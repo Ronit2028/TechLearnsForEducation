@@ -55,14 +55,14 @@ const First = () => {
             <section class="text-gray-600 body-font">
                 <div class="container w-2/4  mx-auto">
                     <div class="flex  justify-center w-full  ">
-                    <video  controls>
-      <source
-        src={vdo}
-        type="video/mp4"
-      />
-      Your browser does not support the video tag.
-    </video>
-                        
+                        <video controls>
+                            <source
+                                src={vdo}
+                                type="video/mp4"
+                            />
+                            Your browser does not support the video tag.
+                        </video>
+
                     </div></div></section>
 
         </>
