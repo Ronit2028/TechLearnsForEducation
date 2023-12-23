@@ -39,3 +39,6 @@
   flex-direction: column;
   justify-content: center;
 }
+.rotate-180 {
+  transform: rotate(180deg);
+}
