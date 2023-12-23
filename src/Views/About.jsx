@@ -1,8 +1,15 @@
 import React from 'react'
+import AboutUsHeader from '../Components/AboutUsComponents/AboutUsHeader'
+import AboutUsMain from '../Components/AboutUsComponents/AboutUsMain'
+import TechLearnsBenefits from '../Components/AboutUsComponents/TechLearnsBenefits'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div className='cera-light'>
+      <AboutUsHeader />
+      <AboutUsMain />
+      <TechLearnsBenefits />
+    </div>
   )
 }
 
