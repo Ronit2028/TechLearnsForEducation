@@ -3,12 +3,12 @@ import React from 'react'
 const StudentUsps = () => {
     return (
         <div className='py-4'>
-            <div className="w-4/5 m-auto pb-4">
+            <div className="container m-auto pb-4">
                 <p className="section-title">
                     Some Title
                 </p>
             </div>
-            <div className="w-4/5 p-5 my-5 flex justify-between m-auto gap-2">
+            <div className="container p-5 my-5 flex justify-between m-auto gap-2">
                 <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3">
                     <div class="rounded overflow-hidden shadow-lg mx-auto">
                         <div class="relative overflow-hidden">

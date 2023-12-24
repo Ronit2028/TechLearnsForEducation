@@ -3,7 +3,7 @@ import React from 'react'
 const ModuleList = () => {
   return (
     <div className='py-4'>
-      <div className="w-4/5 m-auto pb-4">
+      <div className="container m-auto pb-4">
         <p className="section-title">
           Some Title
         </p>
