@@ -2,7 +2,7 @@ import React from 'react'
 
 const TeacherHeaders = () => {
     return (
-        <div className='w-4/5 m-auto p-10 bg-black text-white rounded-lg my-hero-header'>
+        <div className='container m-auto p-10 bg-black text-white rounded-lg my-hero-header'>
             <p className="section-title cera-med">
                 Teachers
             </p>
