@@ -9,12 +9,10 @@ const WhyForStudents = () => {
         <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 flex items-center">
           <div>
             <p className="section-title cera-med">
-              Free template library
+            Unleash Creativity, Master Technology
             </p>
             <p className="section-content">
-              Canva has thousands of free, high quality templates on any subject or topic imaginable, to help you ace your studies. No need to start from scratch!
-
-              Check out our top templates for students below.
+            Welcome to Techlearns Academy's dedicated space for students – where creativity meets technology, and learning becomes an adventure!
             </p>
             <button className='bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5'>Join Now</button>
           </div>

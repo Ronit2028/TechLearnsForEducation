@@ -5,7 +5,7 @@ import StudentUsps from '../Components/StudentComponents/StudentUsps'
 import InterestingModules from '../Components/StudentComponents/InterestingModules'
 import ModuleList from '../Components/StudentComponents/ModuleList'
 import Outcomes from '../Components/StudentComponents/Outcomes'
-
+import '../Stylings/Student/studentStyles.css'
 const Students = () => {
   return (
     <div className='cera-light'>

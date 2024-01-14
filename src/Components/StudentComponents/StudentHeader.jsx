@@ -4,11 +4,11 @@ const StudentHeader = () => {
     return (
         <div className='container m-auto p-10 bg-black text-white rounded-lg my-hero-header'>
             <p className="section-title cera-med">
-                Canva for Students
+                Techlearns for Students
             </p>
             <p className="section-content cera-light">
-                Create amazing designs, documents and presentations in minutes for all your creative projects and studying needs. Learn more about Canva for Students.
-            </p>
+            Explore, Learn, and Thrive: Your Tech Journey Begins Here!
+           </p>
         </div>
     )
 }

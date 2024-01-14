@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const InterestingModules = () => {
     return (
@@ -6,14 +6,10 @@ const InterestingModules = () => {
             <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 flex items-center">
                 <div>
                     <p className="section-title cera-med pb-5">
-                        Studying doesn’t have to be boring!
+                        Learning Reinvented: Embrace the Joy of Education!
                     </p>
                     <p className="section-content mb-4">
                         There’s no reason why studying has to be dull, dry, and unimaginative. With Canva, you can bring study notes to life, level up your learning and have fun whilst you’re at it!
-
-
-
-
                     </p>
                     <p className="section-content mb-4">
                         Plan projects with mind maps, or collaborate with others by using our huge range of interactive templates – perfect for visually managing your projects and connecting the details together.
@@ -27,9 +23,8 @@ const InterestingModules = () => {
             <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
                 <img src="https://static-cse.canva.com/blob/785757/Studenttemplateshomepage.4f0a1dd7.avif" alt="" srcset="" width="100%" />
             </div>
-
         </div>
-    )
-}
+    );
+};
 
-export default InterestingModules
+export default InterestingModules;
