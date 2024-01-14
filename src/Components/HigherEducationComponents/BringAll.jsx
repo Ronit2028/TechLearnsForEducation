@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
 const BringAll = () => {
     const [activeSection, setActiveSection] = useState(0);
     const sliderRef = useRef(null);
@@ -16,36 +17,66 @@ const BringAll = () => {
 
     const sections = [
         {
-            title: 'Section 1',
+            title: 'Collaboration Hub',
             content: (
                 <div className="flex">
                     <div className="w-1/2 p-4">
-                        <h2 className="text-2xl font-bold mb-4">Left Content</h2>
-                        <p>Left content for Section 1 goes here.</p>
+                        <h2 className="text-2xl font-bold mb-4">Streamline Workflows</h2>
+                        <p>Enhance collaboration with a centralized hub for students, educators, and administrators. Simplify workflows, share knowledge, and foster innovation.</p>
                     </div>
                     <div className="w-1/2 p-4">
-                        <h2 className="text-2xl font-bold mb-4">Right Content</h2>
-                        <p>Right content for Section 1 goes here.</p>
+                        <h2 className="text-2xl font-bold mb-4">Real-time Communication</h2>
+                        <p>Experience seamless real-time communication with instant messaging features. Facilitate interaction between teachers, students, and parents, creating a supportive learning environment.</p>
                     </div>
                 </div>
             ),
         },
         {
-            title: 'Section 2',
+            title: 'Creative Learning',
             content: (
                 <div className="flex">
                     <div className="w-1/2 p-4">
-                        <h2 className="text-2xl font-bold mb-4">Left Content</h2>
-                        <p>Left content for Section 2 goes here.</p>
+                        <h2 className="text-2xl font-bold mb-4">Personalized Content</h2>
+                        <p>Customize content for engaging lectures, classes, and projects. Transform documents into interactive presentations, brainstorm ideas visually, and utilize data to tell compelling stories.</p>
                     </div>
                     <div className="w-1/2 p-4">
-                        <h2 className="text-2xl font-bold mb-4">Right Content</h2>
-                        <p>Right content for Section 2 goes here.</p>
+                        <h2 className="text-2xl font-bold mb-4">Skill Development</h2>
+                        <p>Empower students to achieve personal and academic goals. Develop critical design, data, and communication skills through innovative and creative tools.</p>
                     </div>
                 </div>
             ),
         },
-        // Repeat similar structures for Section 3 and Section 4
+        {
+            title: 'Efficient Administration',
+            content: (
+                <div className="flex">
+                    <div className="w-1/2 p-4">
+                        <h2 className="text-2xl font-bold mb-4">Admin Reporting</h2>
+                        <p>Enable streamlined administration with comprehensive reporting tools. Gain insights into user activities, performance metrics, and system usage for efficient decision-making.</p>
+                    </div>
+                    <div className="w-1/2 p-4">
+                        <h2 className="text-2xl font-bold mb-4">SSO Integration</h2>
+                        <p>Enhance security and manageability by enabling Single Sign-On (SSO) for staff and student access. Simplify access management and ensure a seamless user experience.</p>
+                    </div>
+                </div>
+            ),
+        },
+        {
+            title: 'Integration Capabilities',
+            content: (
+                <div className="flex">
+                    <div className="w-1/2 p-4">
+                        <h2 className="text-2xl font-bold mb-4">LMS Integrations</h2>
+                        <p>Seamlessly integrate with popular Learning Management Systems (LMS) including Canvas, Blackboard, and more. Enhance the educational experience with unified platforms.</p>
+                    </div>
+                    <div className="w-1/2 p-4">
+                        <h2 className="text-2xl font-bold mb-4">Tech Support</h2>
+                        <p>Receive dedicated customer support to ensure a smooth experience. Our support team is ready to assist with any inquiries, technical issues, or customization needs.</p>
+                    </div>
+                </div>
+            ),
+        },
+        // You can add more sections as needed
     ];
 
     const handleButtonClick = (index) => {
@@ -88,4 +119,4 @@ const BringAll = () => {
     );
 }
 
-export default BringAll
+export default BringAll;

@@ -6,11 +6,10 @@ const HEheader = () => {
             <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 flex items-center">
                 <div>
                     <p className="section-title cera-med">
-                        TechLearns For Your Campus
+                    Elevate Higher Education with TechLearns Academy
                     </p>
                     <p className="section-content">
-                        Empower everyone on your campus to create, collaborate, and communicate with Canva. Get started with Canva for Teams to unlock our premium collaboration features, or contact us to bring your students into a wider campus rollout.
-                    </p>
+                    Unlock the potential of your campus with TechLearns Academy. Empowering students, educators, and administrators through cutting-edge technology and innovative learning solutions. </p>
                     <button className='bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5'>Join Now</button>
                 </div>
             </div>

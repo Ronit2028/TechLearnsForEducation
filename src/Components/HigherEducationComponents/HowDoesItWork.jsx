@@ -9,7 +9,7 @@ const HowDoesItWork = () => {
         </div>
         <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 px-10">
             <p className="section-title pb-5">
-                How Does It Work
+                The Techlearns Edge
             </p>
             <HEAccordion/>
         </div>
