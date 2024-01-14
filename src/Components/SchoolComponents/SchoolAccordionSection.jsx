@@ -1,25 +1,35 @@
-import React from 'react'
-import AccordionItem from '../../Layout/AccordionItem'
+import React from 'react';
+import AccordionItem from '../../Layout/AccordionItem';
+
 const SchoolAccordionSection = () => {
-    return (
+  return (
+    <div className="w-full">
+      <AccordionItem
+        title="Efficient Collaboration"
+        content="Techlearns Communication Suite facilitates efficient collaboration by providing a centralized platform for teachers, students, and parents. Share updates, announcements, and resources seamlessly."
+      />
+      <AccordionItem
+        title="Real-time Communication"
+        content="Experience real-time communication with instant messaging features. Teachers can engage with students, parents can connect with educators, fostering a supportive learning environment."
+      />
+      <AccordionItem
+        title="Parental Involvement"
+        content="Promote parental involvement through direct communication channels. Keep parents informed about their child's progress, upcoming events, and important announcements."
+      />
+      <AccordionItem
+        title="Personalized Learning Paths"
+        content="Create personalized learning paths for each student. Techlearns Communication Suite empowers educators to tailor learning experiences based on individual needs and preferences."
+      />
+      <AccordionItem
+        title="Resource Sharing"
+        content="Effortlessly share educational resources with your school community. From lesson plans to study materials, Techlearns Communication Suite ensures easy access to essential learning materials."
+      />
+      <AccordionItem
+        title="Secure and Private"
+        content="Prioritize the security and privacy of your school's communication. Techlearns Communication Suite implements robust security measures to protect sensitive information and ensure a safe digital environment."
+      />
+    </div>
+  );
+};
 
-        <div className="w-full">
-            <AccordionItem
-                title="Section 1"
-                content="Content for Section 1 goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-            />
-            <AccordionItem
-                title="Section 2"
-                content="Content for Section 2 goes here. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
-            />
-            <AccordionItem
-                title="Section 3"
-                content="Content for Section 3 goes here. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-            />
-            {/* Add more AccordionItems as needed */}
-
-        </div>
-    )
-}
-
-export default SchoolAccordionSection
+export default SchoolAccordionSection;
