@@ -37,12 +37,12 @@ const TeachersIntegrations = () => {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {integrationList.map((integration, index) => (
-          <div key={index} className="mb-4">
+          <div key={index} className="mb-4 teachers-card">
             <div className="image-container w-full">
               <img src={integration.imageUrl} alt={integration.title} width="100%" className='rounded' />
             </div>
             <div className="card-text">
-              <p className="card-title text-lg">{integration.title}</p>
+              <p className="card-title text-lg pb-3">{integration.title}</p>
               <p className="card-content">{integration.description}</p>
             </div>
           </div>

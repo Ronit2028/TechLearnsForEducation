@@ -3,7 +3,7 @@ import TeachersAccordion from './TeachersAccordion'
 
 const TeachersUsps = () => {
   return (
-    <div className='container'>
+    <div className='container flex justify-center m-auto'>
       <TeachersAccordion/>
     </div>
   )

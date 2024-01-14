@@ -1,25 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 const TeachersBanner = () => {
     return (
         <div className='container bg-black text-white p-10 my-10 m-auto rounded flex flex-wrap'>
-            <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
+            <div className="w-full md:w-full flex flex-col justify-center">
                 <p className="section-title">
-                    Looking for another LMS?
+                    Elevate Your Teaching Experience with Techlearns
                 </p>
-                <p className="section-content">
-                    We want to empower everyone to do their best work in Canva. If there is another LMS you would like Canva to integrate with, please let us know.
+                <p className="section-content mt-3">
+                    Join our community of educators transforming the learning journey. Create visually stunning presentations, engaging assignments, and collaborative projects using Techlearns' intuitive design tools. Seamless integration with popular Learning Management Systems ensures a smooth experience for both you and your students.
                 </p>
-                <button className='bg-blue-500 text-white px-4 py-2 rounded'>Join Us</button>
-            </div>
-
-
-            <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
-                <img src="https://static-cse.canva.com/blob/1187128/banner.57099345.avif    z" alt="" srcset="" width="100%" />
+                <button className='bg-blue-500 text-white px-4 py-2 rounded w-fit mt-5'>Get Started with Techlearns</button>
             </div>
         </div>
+    );
+};
 
-    )
-}
-
-export default TeachersBanner
+export default TeachersBanner;
