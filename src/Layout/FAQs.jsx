@@ -4,15 +4,15 @@ import FAQAccordion from './FAQAccordion'
 const FAQs = () => {
   return (
     <div className='w-4/5 p-5 mt-24 flex flex-wrap m-auto'>
-        <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
-        <p className="section-title pb-5">
-            Frequently Asked Questions
-            </p>
-        </div>
-        <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 px-10">
-            
-            <FAQAccordion/>
-        </div>
+      <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
+        <p className="section-title pb-5 text-3xl">
+          Frequently Asked Questions
+        </p>
+      </div>
+      <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 px-10">
+
+        <FAQAccordion />
+      </div>
     </div>
   )
 }

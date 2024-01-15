@@ -37,8 +37,8 @@ const TeachersAccordion = () => {
             content: (
                 <div className="flex">
                     <div className="w-1/2 p-4">
-                    <img src="https://static-cse.canva.com/blob/1117535/School_leaders_administrators2x.33984be3.avif" alt="" srcset="" width={"100%"} />
-                 
+                        <img src="https://static-cse.canva.com/blob/1117535/School_leaders_administrators2x.33984be3.avif" alt="" srcset="" width={"100%"} />
+
                     </div>
                     <div className="w-1/2 p-4">
                         <h2 className="text-2xl font-bold mb-4">Gradebook Management</h2>
@@ -54,8 +54,8 @@ const TeachersAccordion = () => {
             content: (
                 <div className="flex">
                     <div className="w-1/2 p-4">
-                    <img src="https://static-cse.canva.com/blob/1117535/School_leaders_administrators2x.33984be3.avif" alt="" srcset="" width={"100%"} />
-                 
+                        <img src="https://static-cse.canva.com/blob/1117535/School_leaders_administrators2x.33984be3.avif" alt="" srcset="" width={"100%"} />
+
                     </div>
                     <div className="w-1/2 p-4">
                         <h2 className="text-2xl font-bold mb-4">Certification Programs</h2>

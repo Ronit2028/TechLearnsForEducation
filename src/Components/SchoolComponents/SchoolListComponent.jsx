@@ -2,14 +2,14 @@ import React from 'react';
 
 const SchoolListComponent = () => {
   return (
-    <div className="w-4/5 p-5 my-5 flex flex-wrap m-auto">
-      <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 flex items-center px-10">
+    <div className="w-full md:w-4/5 lg:w-4/5 xl:w-4/5 p-5 my-5 flex flex-wrap m-auto mt-20">
+      <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex items-center px-5 md:px-10">
         <div>
-          <p className="section-title cera-med">
+          <p className="section-title cera-bold text-2xl md:text-3xl lg:text-4xl text-left mb-6 md:mb-10">
             Unlock the Benefits of Techlearns Academy
           </p>
-          <ul className="list-none section-content cera-light">
-            <li className="flex items-center text-gray-500 mb-2">
+          <ul className="list-none section-content cera-light text-base text-gray-700 mt-4">
+            <li className="flex items-center mb-2">
               <svg
                 className="w-5 h-5 mr-2"
                 fill="none"
@@ -26,7 +26,7 @@ const SchoolListComponent = () => {
               </svg>
               Empower students with advanced features for enhanced learning experiences.
             </li>
-            <li className="flex items-center text-gray-500 mb-2">
+            <li className="flex items-center mb-2">
               <svg
                 className="w-5 h-5 mr-2"
                 fill="none"
@@ -43,7 +43,7 @@ const SchoolListComponent = () => {
               </svg>
               Simplify access with Single Sign-On (SSO) for efficient management of staff and students.
             </li>
-            <li className="flex items-center text-gray-500 mb-2">
+            <li className="flex items-center mb-2">
               <svg
                 className="w-5 h-5 mr-2"
                 fill="none"
@@ -60,7 +60,7 @@ const SchoolListComponent = () => {
               </svg>
               Gain streamlined admin reporting and permissions for effective oversight.
             </li>
-            <li className="flex items-center text-gray-500 mb-2">
+            <li className="flex items-center mb-2">
               <svg
                 className="w-5 h-5 mr-2"
                 fill="none"
@@ -77,7 +77,7 @@ const SchoolListComponent = () => {
               </svg>
               Enhance the learning ecosystem with LMS integrations like Canvas, Blackboard, and more.
             </li>
-            <li className="flex items-center text-gray-500 mb-2">
+            <li className="flex items-center mb-2">
               <svg
                 className="w-5 h-5 mr-2"
                 fill="none"
@@ -97,12 +97,11 @@ const SchoolListComponent = () => {
           </ul>
         </div>
       </div>
-      <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
+      <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 mt-4 md:mt-0 lg:mt-0 xl:mt-0">
         <img
           src="https://static-cse.canva.com/blob/1168085/Premiumfeatures2x.a7743f04.avif"
           alt=""
-          srcSet=""
-          width="100%"
+          className="w-full md:w-3/4 h-auto rounded-lg"
         />
       </div>
     </div>

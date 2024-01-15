@@ -5,20 +5,27 @@ const SchoolHeader = () => {
     <div className="w-4/5 p-5 my-5 flex flex-wrap m-auto">
       <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 flex items-center">
         <div>
-          <p className="section-title cera-med">
+          <p className="section-title cera-med text-2xl lg:text-3xl mb-5">
             Elevate Learning with Techlearns Academy for Schools
           </p>
-          <p className="section-content">
+          <p className="section-content font-medium text-base text-slate-700 mb-4">
             Techlearns Academy partners with schools to revolutionize education through innovative and tech-driven programs. Empower your educators, engage students, and transform your school's learning experience with our 100% free offerings for primary and secondary schools.
           </p>
-          <button className='bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5'>
-            Join the Techlearns Community
+          <button
+            type="button"
+            className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-base px-5 py-2.5 text-center me-2 mb-2 mt-2"
+          >
+            Join the Techlearns Academy
           </button>
         </div>
       </div>
 
       <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
-        <img src="https://static-cse.canva.com/blob/1117534/Hero_asset2x.d54bb566.avif" alt="Techlearns Academy" width="100%" />
+        <img
+          src="https://static-cse.canva.com/blob/1117534/Hero_asset2x.d54bb566.avif"
+          alt="Techlearns Academy"
+          className="w-4/5 h-auto rounded-lg"
+        />
       </div>
     </div>
   );
