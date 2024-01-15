@@ -17,7 +17,9 @@ const InterestingModules = () => {
                     <p className="section-content mb-4">
                         You can also keep on top of classes and study sessions with schedules, outline essays, not to mention flashcards to help you retain the necessary details!
                     </p>
-                    <button className='bg-gray-300 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-5'>Join Now</button>
+                    <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center text-medium me-2 mb-2 mt-2">
+              Join Now
+              </button>
                 </div>
             </div>
             <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">

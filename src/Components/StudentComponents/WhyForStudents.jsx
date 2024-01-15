@@ -11,10 +11,12 @@ const WhyForStudents = () => {
             <p className="section-title cera-med">
             Unleash Creativity, Master Technology
             </p>
-            <p className="section-content">
+            <p className="section-content text-base font-medium text-slate-700 mt-1">
             Welcome to Techlearns Academy's dedicated space for students – where creativity meets technology, and learning becomes an adventure!
             </p>
-            <button className='bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5'>Join Now</button>
+            <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mt-4">
+              Join Now
+              </button>
           </div>
         </div>
       </div>

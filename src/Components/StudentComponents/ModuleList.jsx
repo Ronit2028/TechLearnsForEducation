@@ -1,7 +1,6 @@
 import React from 'react';
 
 const ModuleList = () => {
-  // Define the list of module content
   const moduleData = [
     {
       title: 'Web Development Fundamentals',
@@ -33,38 +32,42 @@ const ModuleList = () => {
       imageSrc: 'https://static-cse.canva.com/blob/785757/Studenttemplateshomepage.4f0a1dd7.avif',
       content: 'Craft seamless user experiences with UI/UX design mastery. Learn design thinking, wireframing, and prototyping to create user-friendly interfaces for digital products.',
     },
+    // Add more modules as needed
   ];
 
   return (
     <div className='py-4'>
-      <div className="container m-auto pb-4">
-        <p className="section-title">
+      <div className="container mx-auto pb-4">
+        <p className="section-title text-center">
           Explore Our Modules
         </p>
       </div>
-      <div className="w-full p-5 my-5 flex flex-wrap">
-        {moduleData.map((module, index) => (
-          <div key={index} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 mb-5">
-            <div className="rounded overflow-hidden shadow-lg mx-auto module-card">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8 py-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          {moduleData.map((module, index) => (
+            <div key={index} className="flex flex-col rounded-xl overflow-hidden shadow-lg mb-2 hover:shadow-xl  ">
               <div className="relative overflow-hidden">
                 <img
                   className="w-full h-64 object-cover transition duration-300 transform hover:brightness-75 hover:scale-105"
                   src={module.imageSrc}
                   alt="Module Image"
                 />
-                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 text-white px-4 py-2 rounded opacity-0 transition duration-300 hover:opacity-100">
-                  Explore Module
+                <button 
+                  type="button" 
+                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 text-white px-4 py-2 rounded-lg opacity-0 transition duration-300 hover:opacity-100 focus:outline-none focus:ring focus:border-blue-300"
+                >
+                  Explore Modules
                 </button>
               </div>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">{module.title}</div>
-                <p className="text-gray-700 text-base">
+                <div className="font-bold text-xl mb-2 hover:text-yellow-500">{module.title}</div>
+                <p className="text-base text-slate-700">
                   {module.content}
                 </p>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

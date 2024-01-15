@@ -2,11 +2,11 @@ import React from 'react'
 
 const StudentHeader = () => {
     return (
-        <div className='container m-auto p-10 bg-black text-white rounded-lg my-hero-header'>
-            <p className="section-title cera-med">
+        <div className='container m-auto p-10 bg-black text-white rounded-2xl my-hero-header'>
+            <p className="section-title cera-med text-6xl mb-5">
                 Techlearns for Students
             </p>
-            <p className="section-content cera-light">
+            <p className="section-content cera-light text-xl ">
             Explore, Learn, and Thrive: Your Tech Journey Begins Here!
            </p>
         </div>
