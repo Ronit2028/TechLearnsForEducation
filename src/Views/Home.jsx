@@ -8,14 +8,18 @@ import Eight from '../Components/HomeCompo/Eight'
 import Testimonial from '../Components/HomeCompo/Testimonial'
 import Ninth from '../Components/HomeCompo/Ninth'
 import FAQs from '../Layout/FAQs'
+import Third from '../Components/HomeCompo/Third'
+import Sixth from '../Components/HomeCompo/Sixth'
 
 const Home = () => {
   return (
     <div>
       <First/>
       <Tools/>
+      <Third/>
       <Fourth/>
       <Fifth/>
+      <Sixth/>
       <Seventh/>
       <Eight/>
       <Testimonial/>
