@@ -1,20 +1,33 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faYoutube, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
-
+import darkLogo from '../Assets/Brand/LogoDark.png'
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 pt-10 sm:mt-10 pt-10">
+    <footer className="bg-gray-800 pt-10 sm:mt-10">
+
       <div className="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
+
         {/* Col-1 */}
+        <div className="p-5 w-12 sm:w-4/12 md:w-3/12">
+          <img src={darkLogo} alt="" srcset="" width={"80%"}/>
+        </div>
+        
+        
         <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
           <div className="text-xs uppercase text-gray-400 font-medium mb-6">
             Getting Started
           </div>
-          <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-            Installation
-          </a>
-          {/* ... (more links) */}
+          <Link to="/" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            Home
+          </Link>
+          <Link to="/about-us" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            About Us
+          </Link>
+          <Link to="/contact" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            Contact
+          </Link>
         </div>
 
         {/* Col-2 */}
@@ -22,30 +35,28 @@ const Footer = () => {
           <div className="text-xs uppercase text-gray-400 font-medium mb-6">
             Core Concepts
           </div>
-          <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-            Utility-First
-          </a>
-          {/* ... (more links) */}
+          <Link to="/higher-education" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            Higher Education
+          </Link>
+          <Link to="/schools" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            Schools
+          </Link>
+          <Link to="/students" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            Students
+          </Link>
+          <Link to="/teachers" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+            Teachers
+          </Link>
         </div>
 
-        {/* Col-3 */}
         <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-          <div className="text-xs uppercase text-gray-400 font-medium mb-6">
-            Customization
+          <div className="text-xs uppercase text-gray-400 font-medium mb-6 ">
+          A leading institution dedicated to providing high-quality technical education. Our academy is committed to empowering individuals with the skills and knowledge needed to excel in today's rapidly evolving technological landscape. 
+                    
           </div>
-          <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-            Configuration
-          </a>
-          {/* ... (more links) */}
+        
         </div>
 
-        {/* Col-3 */}
-        <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-          <div className="text-xs uppercase text-gray-400 font-medium mb-6">
-            Community
-          </div>
-          {/* ... (more links) */}
-        </div>
       </div>
 
       {/* Copyright Bar */}
@@ -76,7 +87,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
