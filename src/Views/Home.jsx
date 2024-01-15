@@ -7,7 +7,7 @@ import Seventh from '../Components/HomeCompo/Seventh'
 import Eight from '../Components/HomeCompo/Eight'
 import Testimonial from '../Components/HomeCompo/Testimonial'
 import Ninth from '../Components/HomeCompo/Ninth'
-import Faq from '../Components/HomeCompo/Faq'
+import FAQs from '../Layout/FAQs'
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
       <Eight/>
       <Testimonial/>
       <Ninth/>
-      <Faq/>
+      <FAQs/>
     </div>
   )
 }

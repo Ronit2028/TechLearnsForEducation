@@ -4,6 +4,7 @@ import TeachersIntegrations from '../Components/TeachersComponents/TeachersInteg
 import TeachersBanner from '../Components/TeachersComponents/TeachersBanner'
 import TeachersUsps from '../Components/TeachersComponents/TeachersUsps'
 import '../Stylings/Teachers/teachers.css'
+import FAQs from '../Layout/FAQs'
 const Teachers = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const Teachers = () => {
       <TeachersIntegrations/>
       <TeachersBanner/>
       <TeachersUsps/>
+      <FAQs/>
     </div>
   )
 }

@@ -4,6 +4,7 @@ import SchoolCommunicationSuite from '../Components/SchoolComponents/SchoolCommu
 import SchoolCarousel from '../Components/SchoolComponents/SchoolCarousel'
 import SchoolListComponent from '../Components/SchoolComponents/SchoolListComponent'
 import SchoolWebinar from '../Components/SchoolComponents/SchoolWebinar'
+import FAQs from '../Layout/FAQs'
 
 const Schools = () => {
   return (
@@ -13,6 +14,7 @@ const Schools = () => {
       <SchoolCarousel/>
       <SchoolListComponent/>
       <SchoolWebinar/>
+      <FAQs/>
     </div>
   )
 }

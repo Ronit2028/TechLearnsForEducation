@@ -6,6 +6,7 @@ import InterestingModules from '../Components/StudentComponents/InterestingModul
 import ModuleList from '../Components/StudentComponents/ModuleList'
 import Outcomes from '../Components/StudentComponents/Outcomes'
 import '../Stylings/Student/studentStyles.css'
+import FAQs from '../Layout/FAQs'
 const Students = () => {
   return (
     <div className='cera-light'>
@@ -15,6 +16,7 @@ const Students = () => {
       <InterestingModules/>
       <ModuleList/>
       <Outcomes/>
+      <FAQs/>
     </div>
   )
 }

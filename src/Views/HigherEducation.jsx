@@ -6,6 +6,7 @@ import HowDoesItWork from '../Components/HigherEducationComponents/HowDoesItWork
 import TechLearnsFeatures from '../Components/HigherEducationComponents/TechLearnsFeatures'
 import WhyTechLearnsForCampuses from '../Components/HigherEducationComponents/WhyTechLearnsForCampuses'
 import BringAll from '../Components/HigherEducationComponents/BringAll'
+import FAQs from '../Layout/FAQs'
 
 const HigherEducation = () => {
   return (
@@ -16,6 +17,7 @@ const HigherEducation = () => {
       <TechLearnsFeatures/>
       <WhyTechLearnsForCampuses/>
       <BringAll/>
+      <FAQs/>
     </div>
   )
 }
