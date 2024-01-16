@@ -15,7 +15,7 @@ const HEheader = () => {
             </div>
 
             <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
-                <img src="https://static-cse.canva.com/blob/785757/Studenttemplateshomepage.4f0a1dd7.avif" alt="" srcset="" width="100%" />
+                <img src="https://static-cse.canva.com/blob/1117534/Hero_asset2x.d54bb566.avif" alt="" srcset="" width="100%" />
             </div>
 
         </div>

@@ -18,17 +18,17 @@ const DesignYourFuture = () => {
       content: "Achieve personal and academic goals by using creative, engaging tools. Developing critical design, data, and communication skills has never been easier.",
     },
     {
-      image: "https://static-cse.canva.com/blob/1234567/CampusManagement.png",
+      image: "https://static-cse.canva.com/blob/1168080/MarketingAdmin2x.png",
       title: "Campus Management",
       content: "Efficiently manage campus operations with our integrated Campus Management System. From admissions to grading, simplify administrative tasks and enhance overall productivity.",
     },
     {
-      image: "https://static-cse.canva.com/blob/1234568/ResearchCollaboration.png",
+      image: "https://static-cse.canva.com/blob/1168076/Teachingstaff2x.png",
       title: "Research Collaboration",
       content: "Foster collaborative research projects across departments and institutions. Utilize TechLearns platform to connect researchers, share findings, and drive innovation in your campus community.",
     },
     {
-      image: "https://static-cse.canva.com/blob/1234569/OnlineLearning.png",
+      image: "https://static-cse.canva.com/blob/1168081/Students2x.png",
       title: "Online Learning",
       content: "Expand learning opportunities with our advanced online learning platform. Deliver courses, assessments, and engaging content to students anytime, anywhere, ensuring a flexible and accessible education.",
     },

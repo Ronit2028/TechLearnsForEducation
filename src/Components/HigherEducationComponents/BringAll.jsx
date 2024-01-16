@@ -17,62 +17,59 @@ const BringAll = () => {
 
     const sections = [
         {
-            title: 'Collaboration Hub',
+            title: 'Collaboration',
             content: (
-                <div className="flex">
-                    <div className="w-1/2 p-4">
+                <div className="flex flex-wrap">
+                    <div className="w-full lg:w-1/2 p-4">
                         <h2 className="text-2xl font-bold mb-4">Streamline Workflows</h2>
                         <p>Enhance collaboration with a centralized hub for students, educators, and administrators. Simplify workflows, share knowledge, and foster innovation.</p>
                     </div>
-                    <div className="w-1/2 p-4">
-                        <h2 className="text-2xl font-bold mb-4">Real-time Communication</h2>
-                        <p>Experience seamless real-time communication with instant messaging features. Facilitate interaction between teachers, students, and parents, creating a supportive learning environment.</p>
-                    </div>
+                    <div className="w-full lg:w-1/2 p-4">
+                        <img src="https://static-cse.canva.com/blob/1168075/Communicatecreatively2x.b092c884.avif" alt="" srcset="" width={"100%"}/>
+                        </div>
                 </div>
             ),
         },
         {
-            title: 'Creative Learning',
+            title: ' Learning',
             content: (
-                <div className="flex">
-                    <div className="w-1/2 p-4">
+                <div className="flex flex-wrap">
+                    <div className="w-full lg:w-1/2 p-4">
                         <h2 className="text-2xl font-bold mb-4">Personalized Content</h2>
                         <p>Customize content for engaging lectures, classes, and projects. Transform documents into interactive presentations, brainstorm ideas visually, and utilize data to tell compelling stories.</p>
                     </div>
-                    <div className="w-1/2 p-4">
-                        <h2 className="text-2xl font-bold mb-4">Skill Development</h2>
-                        <p>Empower students to achieve personal and academic goals. Develop critical design, data, and communication skills through innovative and creative tools.</p>
-                    </div>
+                    <div className="w-full lg:w-1/2 p-4">
+                        <img src="https://static-cse.canva.com/blob/1168074/Customizablecontent2x.3cb294e4.avif" alt="" srcset="" width={"100%"}/>
+                        </div>
                 </div>
             ),
         },
         {
-            title: 'Efficient Administration',
+            title: ' Administration',
             content: (
-                <div className="flex">
-                    <div className="w-1/2 p-4">
+                <div className="flex flex-wrap">
+                    <div className="w-full lg:w-1/2 p-4">
                         <h2 className="text-2xl font-bold mb-4">Admin Reporting</h2>
                         <p>Enable streamlined administration with comprehensive reporting tools. Gain insights into user activities, performance metrics, and system usage for efficient decision-making.</p>
                     </div>
-                    <div className="w-1/2 p-4">
-                        <h2 className="text-2xl font-bold mb-4">SSO Integration</h2>
-                        <p>Enhance security and manageability by enabling Single Sign-On (SSO) for staff and student access. Simplify access management and ensure a seamless user experience.</p>
-                    </div>
+                    <div className="w-full lg:w-1/2 p-4">
+                    <div className="w-full lg:w-1/2 p-4">
+                        <img src="https://static-cse.canva.com/blob/1168084/Streamlineworkflow2x.a3c24445.avif" alt="" srcset="" width={"100%"}/>
+                        </div></div>
                 </div>
             ),
         },
         {
-            title: 'Integration Capabilities',
+            title: 'Integration',
             content: (
-                <div className="flex">
-                    <div className="w-1/2 p-4">
+                <div className="flex flex-wrap">
+                    <div className="w-full lg:w-1/2 p-4">
                         <h2 className="text-2xl font-bold mb-4">LMS Integrations</h2>
                         <p>Seamlessly integrate with popular Learning Management Systems (LMS) including Canvas, Blackboard, and more. Enhance the educational experience with unified platforms.</p>
                     </div>
-                    <div className="w-1/2 p-4">
-                        <h2 className="text-2xl font-bold mb-4">Tech Support</h2>
-                        <p>Receive dedicated customer support to ensure a smooth experience. Our support team is ready to assist with any inquiries, technical issues, or customization needs.</p>
-                    </div>
+                    <div className="w-full lg:w-1/2 p-4">
+                        <img src="https://static-cse.canva.com/blob/1168082/Premiumcreativityfeatures2x.b4963f3c.avif" alt="" srcset="" width="100%"/>
+                         </div>
                 </div>
             ),
         },
@@ -97,10 +94,10 @@ const BringAll = () => {
                         <button
                             key={index}
                             onClick={() => handleButtonClick(index)}
-                            className={`px-4 py-2 text-white ${activeSection === index
-                                ? 'bg-blue-500'
-                                : 'bg-gray-500 hover:bg-gray-600'
-                                } rounded focus:outline-none focus:ring focus:border-blue-300`}
+                            className={`px-4 py-2 text-blue-900 text-lg cera-med ${activeSection === index
+                                ? 'border-b-2 border-blue-900 bg-transparent'
+                                : 'bg-transparent'
+                                } rounded focus:outline-none`}
                         >
                             {section.title}
                         </button>
@@ -109,7 +106,7 @@ const BringAll = () => {
                 <Slider ref={sliderRef} {...settings}>
                     {sections.map((section, index) => (
                         <div key={index} className="outline-none">
-                            <h2 className="text-2xl font-bold mb-4">{section.title}</h2>
+                            {/* <h2 className="text-2xl font-bold mb-4">{section.title}</h2> */}
                             <p>{section.content}</p>
                         </div>
                     ))}

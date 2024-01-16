@@ -2,9 +2,9 @@ import React from 'react';
 
 const WhyTechLearnsForCampuses = () => {
   return (
-    <div className="w-4/5 p-5 my-5 flex flex-wrap m-auto">
+    <div className="w-4/5 p-5 my-10 flex flex-wrap m-auto">
       <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
-        <img src="https://static-cse.canva.com/blob/1168085/Premiumfeatures2x.a7743f04.avif" alt="" srcSet="" width="100%" />
+        <img src="https://static-cse.canva.com/blob/1168083/Empowerstudentsandsetthemupforsuccess2x.1616977d.avif" alt="" srcSet="" width="100%" />
       </div>
       <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 flex items-center px-10">
         <div>
