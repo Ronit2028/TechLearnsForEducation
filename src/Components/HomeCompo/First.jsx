@@ -1,6 +1,8 @@
 import React from 'react';
 import vdo from '../../Assets/img/EducationHero_WebOptimised.mp4';
 import ToStudentButton from '../../Layout/ToStudentButton';
+import ToTeachersButton from '../../Layout/ToTeachersButton';
+import ToHigherEducationButton from '../../Layout/ToHigherEducationButton';
 
 const First = () => {
   return (
@@ -18,12 +20,8 @@ const First = () => {
             {/* Call-to-Action Buttons */}
             <div className="flex flex-col sm:flex-row justify-center mt-8">
               <ToStudentButton/>
-              <button className="text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg mx-2 mb-2 sm:mb-0">
-                Educational Institutions
-              </button>
-              <button className="text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg mx-2">
-                Learners
-              </button>
+              <ToTeachersButton/>
+              <ToHigherEducationButton/>
             </div>
           </div>
         </div>
