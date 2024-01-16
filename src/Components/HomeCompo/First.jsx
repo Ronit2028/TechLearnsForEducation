@@ -6,9 +6,9 @@ import ToHigherEducationButton from '../../Layout/ToHigherEducationButton';
 
 const First = () => {
   return (
-    <>
+    <div className='first-section'>
       {/* Hero Section */}
-      <section className="text-gray-600 body-font first-section">
+      <section className="text-gray-600 body-font ">
         <div className="container px-5 pt-24 pb-12 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-4xl text-2xl leading-loose font-medium title-font mb-4 text-gray-900 cera-med">
@@ -39,7 +39,7 @@ const First = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
