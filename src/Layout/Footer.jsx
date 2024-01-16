@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
 
         {/* Col-1 */}
-        <div className="p-5 w-12 sm:w-4/12 md:w-3/12">
+        <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
           <img src={darkLogo} alt="" srcset="" width={"80%"}/>
         </div>
         
