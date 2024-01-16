@@ -9,9 +9,9 @@ const AccordionItem = ({ title, content }) => {
   };
 
   return (
-    <div className="border-b rounded-lg overflow-hidden mb-2">
+    <div className="border-b rounded-lg overflow-hidden mb-2 duration-500">
       <div
-        className={`flex justify-between items-center py-4 cursor-pointer border-0 ${
+        className={`flex justify-between items-center py-4 cursor-pointer border-0 duration-500 ${
           isOpen ? 'rounded-t-lg' : ''
         }`}
         onClick={toggleAccordion}
@@ -37,7 +37,7 @@ const AccordionItem = ({ title, content }) => {
       </div>
       {isOpen && (
         <div
-          className="p-4 bg-gray-200"
+          className="p-4 bg-gray-200 duration-500"
           style={{ transition: 'background-color 0.5s' }}
         >
           {content}
