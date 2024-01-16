@@ -70,3 +70,13 @@ body{
   background-position: center center;
   height: 100%;
 }
+.student-header{
+  background-image: url('https://static-cse.canva.com/blob/785768/Canvastudentsbanner.49257f47.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.teacher-header{
+  background-image: url('https://static-cse.canva.com/blob/781217/educationbanner2.82c5f721.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
