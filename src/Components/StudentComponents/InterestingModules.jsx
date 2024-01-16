@@ -3,7 +3,7 @@ import React from 'react';
 const InterestingModules = () => {
     return (
         <div className="container p-5 my-5 flex flex-wrap m-auto">
-            <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 flex items-center">
+            <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 flex items-center lg:pr-5">
                 <div>
                     <p className="section-title cera-med pb-5">
                         Learning Reinvented: Embrace the Joy of Education!
@@ -23,7 +23,7 @@ const InterestingModules = () => {
                 </div>
             </div>
             <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
-                <img src="https://static-cse.canva.com/blob/785757/Studenttemplateshomepage.4f0a1dd7.avif" alt="" srcset="" width="100%" />
+                <img src="https://static-cse.canva.com/blob/785762/ContentFeatureStudentsStudyingRightText630x398.1ac59e90.avif" alt="" srcset="" width="100%" />
             </div>
         </div>
     );
