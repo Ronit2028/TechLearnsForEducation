@@ -2,7 +2,7 @@ import React from 'react';
 
 const TeachersBanner = () => {
     return (
-        <div className='container bg-black text-white p-10 my-10 m-auto rounded flex flex-wrap'>
+        <div className='container bg-black text-white p-10 my-10 m-auto rounded-2xl flex flex-wrap'>
             <div className="w-full md:w-full flex flex-col justify-center">
                 <p className="section-title">
                     Elevate Your Teaching Experience with Techlearns

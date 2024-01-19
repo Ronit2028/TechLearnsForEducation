@@ -32,7 +32,7 @@ const ModuleList = () => {
       imageSrc: 'https://static-cse.canva.com/blob/785757/Studenttemplateshomepage.4f0a1dd7.avif',
       content: 'Craft seamless user experiences with UI/UX design mastery. Learn design thinking, wireframing, and prototyping to create user-friendly interfaces for digital products.',
     },
-    // Add more modules as needed
+  
   ];
 
   return (
@@ -45,15 +45,15 @@ const ModuleList = () => {
       <div className="container mx-auto px-4 sm:px-6 md:px-8 py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {moduleData.map((module, index) => (
-            <div key={index} className="flex flex-col rounded-xl overflow-hidden shadow-lg mb-2 hover:shadow-xl  ">
+            <div key={index} className="flex flex-col rounded-xl overflow-hidden shadow-lg mb-2 ">
               <div className="relative overflow-hidden">
                 <img
                   className="w-full h-64 object-cover transition duration-300 transform hover:brightness-75 hover:scale-105"
                   src={module.imageSrc}
                   alt="Module Image"
                 />
-                <button 
-                  type="button" 
+                <button
+                  type="button"
                   className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 text-white px-4 py-2 rounded-lg opacity-0 transition duration-300 hover:opacity-100 focus:outline-none focus:ring focus:border-blue-300"
                 >
                   Explore Modules

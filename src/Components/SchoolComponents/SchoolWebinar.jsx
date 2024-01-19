@@ -2,7 +2,7 @@ import React from 'react';
 
 const SchoolWebinar = () => {
   return (
-    <div className="w-11/12 md:w-4/5 p-5 my-5 text-center m-auto rounded-lg bg-white shadow-xl ring-1 ring-slate-900/5 mt-10 flex flex-col md:flex-row items-center">
+    <div className="w-11/12 md:w-4/5 p-5 my-5 text-center m-auto rounded-lg ring-slate-900/5 mt-10 flex flex-col md:flex-row items-center">
       <div className="md:w-1/2">
         <img
           src="https://static-cse.canva.com/blob/1117529/webinar.c3f15ca2.avif"

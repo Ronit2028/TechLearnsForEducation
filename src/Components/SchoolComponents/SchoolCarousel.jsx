@@ -21,8 +21,8 @@ const SchoolCarousel = () => {
       content: (
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 p-4">
-            <img src="https://static-cse.canva.com/blob/1117535/School_leaders_administrators2x.33984be3.avif" alt="" srcset="" width={"100%"}/>
-             </div>
+            <img src="https://static-cse.canva.com/blob/1117535/School_leaders_administrators2x.33984be3.avif" alt="" srcset="" width={"100%"} />
+          </div>
           <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-4 cera-med ">Communication</h2>
             <p>Streamline communication with real-time updates, making it easy for everyone to stay informed.</p>
@@ -31,14 +31,14 @@ const SchoolCarousel = () => {
       ),
     },
     {
-      title: 'Leanring',
+      title: 'Learning',
       content: (
         <div className="flex flex-wrap">
-           <div className="w-full lg:w-1/2 p-4">
-            <img src="https://static-cse.canva.com/blob/1117536/Teachers2x.d3515424.avif" alt="" srcset="" width={"100%"}/>
-             </div>
+          <div className="w-full lg:w-1/2 p-4">
+            <img src="https://static-cse.canva.com/blob/1117536/Teachers2x.d3515424.avif" alt="" srcset="" width={"100%"} />
+          </div>
           <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center">
-            <h2 className="text-2xl font-bold mb-4 cera-med " >Leanring</h2>
+            <h2 className="text-2xl font-bold mb-4 cera-med " >Learning</h2>
             <p>Assign tasks, projects, and assignments with ease, promoting a structured learning environment.</p>
           </div>
         </div>
@@ -49,8 +49,8 @@ const SchoolCarousel = () => {
       content: (
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 p-4">
-            <img src="https://static-cse.canva.com/blob/1117533/Students2x.ab46e5e5.avif" alt="" srcset="" width={"100%"}/>
-             </div>
+            <img src="https://static-cse.canva.com/blob/1117533/Students2x.ab46e5e5.avif" alt="" srcset="" width={"100%"} />
+          </div>
           <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-4 cera-med ">Data</h2>
             <p>Grant administrators control over privacy settings, allowing them to manage data access and protect student information.</p>
@@ -63,8 +63,8 @@ const SchoolCarousel = () => {
       content: (
         <div className="flex flex-wrap ">
           <div className="w-full lg:w-1/2 p-4">
-            <img src="https://static-cse.canva.com/blob/1117527/Marketing_communications2x.c2492b10.avif" alt="" srcset="" width={"100%"}/>
-             </div>
+            <img src="https://static-cse.canva.com/blob/1117527/Marketing_communications2x.c2492b10.avif" alt="" srcset="" width={"100%"} />
+          </div>
           <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-4 cera-med">Workflows</h2>
             <p>Implement adaptive assessments that adjust difficulty based on students' performance, ensuring a challenging yet supportive educational journey.</p>
@@ -72,7 +72,7 @@ const SchoolCarousel = () => {
         </div>
       ),
     },
-    // Add more sections as needed
+
   ];
 
   const handleButtonClick = (index) => {

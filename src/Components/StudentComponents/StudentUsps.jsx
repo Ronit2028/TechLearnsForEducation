@@ -35,7 +35,7 @@ const StudentUsps = () => {
               onMouseEnter={() => setHoveredCard(index)}
               onMouseLeave={() => setHoveredCard(null)}
             >
-              <div className="rounded-xl overflow-hidden shadow-lg mx-auto hover:shadow-xl uspcard">
+              <div className="rounded-xl overflow-hidden shadow-lg mx-auto uspcard">
                 <div className="relative overflow-hidden">
                   <img
                     className="w-full h-64 object-cover transition duration-300 transform hover:brightness-75 hover:scale-105"
