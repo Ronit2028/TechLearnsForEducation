@@ -1,20 +1,22 @@
 import React, { useState } from 'react';
-
+import img1 from '../../Assets/img/studentcard1.jpg';
+import img2 from '../../Assets/img/studentcard2.jpg';
+import img3 from '../../Assets/img/studentcard3.jpg';
 const StudentUsps = () => {
   const cardData = [
     {
       title: 'Comprehensive Training Programs:',
-      imageSrc: 'https://static-cse.canva.com/blob/785767/Studentpresentation.7377b402.avif',
+      imageSrc: img1,
       content: 'Explore website development, app creation, software engineering, graphic design, and document handling. Our courses equip you with skills for the digital future.',
     },
     {
       title: 'Guidance from Industry Experts:',
-      imageSrc: 'https://static-cse.canva.com/blob/785758/StudentInfographic.393bc590.avif',
+      imageSrc: img2,
       content: 'Learn from industry experts who bring real-world insights. Our instructors nurture your potential and guide you towards success.',
     },
     {
       title: 'Hands-On Projects:',
-      imageSrc: 'https://static-cse.canva.com/blob/785763/Studentposter.2fe3b0ff.avif',
+      imageSrc: img3,
       content: 'Apply your skills through hands-on projects. Graduate with knowledge and confidence to tackle complex tasks in your field.',
     },
   ];

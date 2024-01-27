@@ -1,13 +1,13 @@
 import React from 'react';
-
+import img from '../../Assets/img/school/webinar.jpg'
 const SchoolWebinar = () => {
   return (
     <div className="w-11/12 md:w-4/5 p-5 my-5 text-center m-auto rounded-lg ring-slate-900/5 mt-10 flex flex-col md:flex-row items-center">
       <div className="md:w-1/2">
         <img
-          src="https://static-cse.canva.com/blob/1117529/webinar.c3f15ca2.avif"
+          src={img}
           alt="Webinar Image"
-          className="w-3/4 h-auto mt-4 rounded-lg"
+          className="w-3/4 h-auto mt-4 rounded-3xl"
         />
       </div>
       <div className="md:w-1/2 p-5 text-left">

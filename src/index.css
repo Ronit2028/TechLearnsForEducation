@@ -83,13 +83,14 @@ body {
 }
 
 .student-header {
-  background-image: url('https://static-cse.canva.com/blob/785768/Canvastudentsbanner.49257f47.avif');
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 60%), url('../src/Assets/img/student-header.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+
 .teacher-header {
-  background-image: url('https://static-cse.canva.com/blob/781217/educationbanner2.82c5f721.avif');
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 70%),  url('../src/Assets/img/teachersbanner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }

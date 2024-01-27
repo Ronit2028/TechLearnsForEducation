@@ -2,7 +2,10 @@ import React, { useState, useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import img1 from '../../Assets/img/school/communication.jpg'
+import img2 from '../../Assets/img/school/learning.jpg'
+import img3 from '../../Assets/img/school/data.jpg'
+import img4 from '../../Assets/img/school/workflow.jpg'
 const SchoolCarousel = () => {
   const [activeSection, setActiveSection] = useState(0);
   const sliderRef = useRef(null);
@@ -20,8 +23,8 @@ const SchoolCarousel = () => {
       title: 'Communication',
       content: (
         <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/2 p-4">
-            <img src="https://static-cse.canva.com/blob/1117535/School_leaders_administrators2x.33984be3.avif" alt="" srcset="" width={"100%"} />
+          <div className="w-full lg:w-1/2 p-4 ">
+            <img className='rounded-3xl' src={img1} alt="" srcset="" width={"80%"} />
           </div>
           <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-4 cera-med ">Communication</h2>
@@ -35,7 +38,7 @@ const SchoolCarousel = () => {
       content: (
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 p-4">
-            <img src="https://static-cse.canva.com/blob/1117536/Teachers2x.d3515424.avif" alt="" srcset="" width={"100%"} />
+            <img className='rounded-3xl' src={img2} alt="" srcset="" width={"80%"}/>
           </div>
           <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-4 cera-med " >Learning</h2>
@@ -49,7 +52,7 @@ const SchoolCarousel = () => {
       content: (
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/2 p-4">
-            <img src="https://static-cse.canva.com/blob/1117533/Students2x.ab46e5e5.avif" alt="" srcset="" width={"100%"} />
+            <img className='rounded-3xl' src={img3} alt="" srcset="" width={"80%"} />
           </div>
           <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-4 cera-med ">Data</h2>
@@ -63,7 +66,7 @@ const SchoolCarousel = () => {
       content: (
         <div className="flex flex-wrap ">
           <div className="w-full lg:w-1/2 p-4">
-            <img src="https://static-cse.canva.com/blob/1117527/Marketing_communications2x.c2492b10.avif" alt="" srcset="" width={"100%"} />
+            <img className='rounded-3xl' src={img4} alt="" srcset="" width={"80%"} />
           </div>
           <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center">
             <h2 className="text-2xl font-bold mb-4 cera-med">Workflows</h2>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import img from '../../Assets/img/school/img1.jpg'
 const SchoolHeader = () => {
   return (
     <div className="w-4/5 p-5 my-5 flex flex-wrap m-auto">
@@ -22,7 +22,7 @@ const SchoolHeader = () => {
 
       <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
         <img
-          src="https://static-cse.canva.com/blob/1117534/Hero_asset2x.d54bb566.avif"
+          src={img}
           alt="Techlearns Academy"
           className="w-4/5 h-auto rounded-lg"
         />

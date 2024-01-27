@@ -1,5 +1,5 @@
 import React from 'react';
-
+import img from '../../Assets/img/school/benifits.jpg'
 const SchoolListComponent = () => {
   return (
     <div className="w-full md:w-4/5 lg:w-4/5 xl:w-4/5 p-5 my-5 flex flex-wrap m-auto mt-20">
@@ -99,9 +99,9 @@ const SchoolListComponent = () => {
       </div>
       <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 mt-4 md:mt-0 lg:mt-0 xl:mt-0">
         <img
-          src="https://static-cse.canva.com/blob/1168085/Premiumfeatures2x.a7743f04.avif"
+          src={img}
           alt=""
-          className="w-full md:w-3/4 h-auto rounded-lg"
+          className="w-full md:w-3/4 h-auto rounded-3xl"
         />
       </div>
     </div>

@@ -1,10 +1,10 @@
 import React from 'react'
-
+import img from '../../Assets/img/student2nd.jpg'
 const WhyForStudents = () => {
   return (
-    <div className="container p-5 my-5 flex flex-wrap m-auto">
-        <div className="w-full md:w-full lg:w-1/2 xl:w-1/2">
-          <img src="https://static-cse.canva.com/blob/785757/Studenttemplateshomepage.4f0a1dd7.avif" alt="" srcset="" width="100%" />
+    <div className="container rounded-3xl p-5 my-5 flex flex-wrap m-auto">
+        <div className="w-full  md:w-full lg:w-1/2 xl:w-1/2">
+          <img src={img} alt="" srcset="" width="75%" />
         </div>
         <div className="w-full md:w-full lg:w-1/2 xl:w-1/2 flex items-center">
           <div>
